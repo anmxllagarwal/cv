@@ -4,78 +4,59 @@
 <head>
   <meta charset="utf-8">
   <title>Anmol's personal site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="30">
-    <tr>
-      <td>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg">
-      </td>
-      <td>
-        <h1>Anmol Agarwal</h1>
-        <p><em><strong>Computer science<strong> student<em></p>
-      </td>
-    </tr>
-  </table>
-  <!--Yeh toh ho gaya agr text vgrh image ke side lana ho toh, isme hum table layout ke hisab se use krte hai-->
-  <!--or niche wala simple text starting-->
-  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg"> -->
-  <!-- <h1>Anmol Agarwal</h1> -->
-  <!-- <p><em><strong>Computer science<strong> student<em></p> -->
-  <hr size="3">
-  <h3>Education</h3>
-  <ul>
-    <li>Blue bells public school</li>
-    <li><a href="https://www.srmist.edu.in/">SRMIST, KTR</a></li>
-  </ul>
-  <hr>
-  <h3>Hobbies</h3>
-  <ol>
-    <li>Football</li>
-    <li>Coding</li>
-    <li>Stocks</li>
-  </ol>
-  <hr>
-  <h3>Expeirence</h3>
-  <table border="2">
-    <thead>
-      <tr>
-        <th>2021</td>
-        <th>2022</td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th>SRMMUN</td>
-        <th>Think Digital</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Anmol.</h1>
+    <h2  class="pro"><em>a <span>pro</span>grammer.</em></h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
 
-  <table border="2">
-    <tr>
-      <td>Skills</td>
-      <td>Stars</td>
-    </tr>
-    <tr>
-      <td>C</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>HTML</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Web Dev</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Contact Info</h3>
-  <a href="contact.html">Click here</a>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="srk" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/6509/production/_125856852_gettyimages-499342095-594x594.jpg" alt="pp">
+        <h2>Hello.</h2>
+        <p class="intro">I am a cs grad. Learning new stuff for living. Frontend webdev, footballer, finance</p>
+      </div>
+      <hr>
+
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="one" src="https://i.pinimg.com/736x/03/2d/b5/032db574a23b523b79481d8d222a41ca.jpg" alt="one">
+          <h3>Developer.</h3>
+          <p>Learning to develop websites. Love creating new designes.</p>
+        </div>
+        <div class="skill-row">
+          <img class="two" src="https://spaces-wp.imgix.net/2016/06/coding-in-the-classroom.png?auto=compress,format&q=50" alt="two">
+          <h3>Coding</h3>
+          <p>Learning to love code.</p>
+        </div>
+      </div>
+      <hr>
+
+
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>You can connect me through various site which are mentioned bewlo with their link.</h3>
+        <p class="contact-message">You can mail me with any query.</p>
+        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p>© Anmolcv2022.</p>
+    </div>
 
 </body>
 
